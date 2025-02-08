@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+header {
+    background: url('AutoFondo.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+header h1 {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px; 
+    border-radius: 10px;
+    width: 80%; 
+    max-width: 500px; 
+}
+
+header p {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px; 
+    border-radius: 10px;
+    width: 60%; 
+    max-width: 300px; 
+}
+
+
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul.list-group {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer {
+    margin-top: 20px;
+}
+
